@@ -1,0 +1,53 @@
+@import './map.scss';
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: rgba(0,0,40,.8);
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+  font-family: 'PingFangSC-Regular', 'Avenir', Helvetica, Arial, sans-serif, 'PingFang SC', 'Microsoft YaHei';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  input,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  #app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    transform-origin: top left;
+    width: 0;
+  }
+
+  .container,
+  .container>div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.toasted {
+  font-weight: bold !important;
+}
