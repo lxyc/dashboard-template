@@ -1,4 +1,4 @@
-# dasgboard-hb
+# dashboard
 
 ## Project setup
 ```
