@@ -4,6 +4,8 @@ import Toasted from 'vue-toasted'
 import router from './router'
 import store from './store'
 
+import './styles/common.scss'
+
 Vue.config.productionTip = false
 Vue.use(Toasted, { position: 'top-center', duration: 3000 })
 
